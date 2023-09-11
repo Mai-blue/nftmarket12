@@ -1,7 +1,7 @@
 
 .navbar{
     width: 100%;
-    padding-block: 1.5rem;
+    padding-block: 2rem;
     position: relative;
     z-index: 111111111;
 }
@@ -19,13 +19,13 @@
 
 .navbar_container_left{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 3fr;
     align-items:  center;
 }
 
 .navbar_container_left_box_input_box{
-    width: 60%;
-    border: 1px solid var(--icons-color);
+    width: 80%;
+    border: 1px solid var(--icons-light-color);
     display: flex;
     align-items: center;
     padding: .5rem;
@@ -36,12 +36,13 @@
     width: 90%;
     border: none;
     outline: none;
-    background-color:  transparent;
+    background-color:  var(--box-shadow);
 }
 
 .search_icon{
     cursor: pointer;
     font-size: 1.4rem;
+    color: var(--icons-light-color);
 }
 
 /* //-------RIGHT */
@@ -57,10 +58,12 @@
 .navbar_container_right_discover{
     position: relative;
     cursor: pointer;
+    color: var(--icons-light-color);
 }
 .navbar_container_right_help{
     position: relative;
     cursor: pointer;
+    color: var(--icons-light-color);
 }
 
 .navbar_container_right_discover_box,
@@ -77,6 +80,7 @@
 .navbar_container_right_notify{
     position: relative;
     cursor: pointer;
+    color: var(--icons-light-color);
 }
 
 .notify{
@@ -86,11 +90,13 @@
 .navbar_container_right_button{
     position: relative;
     cursor: pointer;
+
 }
 
 .navbar_container_right_profile_box{
     position: relative;
     cursor: pointer;
+    color: var(--icons-light-color);
 }
 
 .navbar_container_right_profile{

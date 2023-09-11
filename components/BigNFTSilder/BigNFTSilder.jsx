@@ -14,7 +14,7 @@ const BigNFTSilder = () => {
 
   const sliderData = [
     {
-      title: "Đổi Ảnh 1",
+      title: "Walk away",
       id: 1,
       name: "Duong Mai",
       Charity: "The Up Project",
@@ -30,7 +30,7 @@ const BigNFTSilder = () => {
       },
     },
     {
-      title: "Đổi Ảnh 2",
+      title: "The wind",
       id: 2,
       name: "Ngo Lee",
       Charity: "50 PROJECT",
@@ -46,10 +46,10 @@ const BigNFTSilder = () => {
       },
     },
     {
-      title: "Đổi Ảnh 3",
+      title: "Green village",
       id: 3,
       name: "Sai Ly",
-      Charity: "Lá Xanh",
+      Charity: "The Green",
       price: "0000064 ETH",
       like: 255,
       image: images.user3,
@@ -62,14 +62,14 @@ const BigNFTSilder = () => {
       },
     },
     {
-      title: "Đổi Ảnh 1",
+      title: "Flower",
       id: 4,
       name: "Thanh Duong",
       Charity: "GY50 PROJECT",
       price: "4664 ETH",
       like: 243,
       image: images.user4,
-      nftImage: images.nft_image_1,
+      nftImage: images.nft_1,
       time: {
         days: 87,
         hours: 29,
@@ -104,8 +104,8 @@ const BigNFTSilder = () => {
                 className={Style.bigNFTSlider_box_left_creator_profile_img}
                 src={sliderData[idNumber].image}
                 alt="profile image"
-                width={50}
-                height={50}
+                width={40}
+                height={40}
               />
               <div className={Style.bigNFTSlider_box_left_creator_profile_info}>
                 <p>Creator</p>
@@ -134,9 +134,9 @@ const BigNFTSilder = () => {
 
           <div className={Style.bigNFTSlider_box_left_bidding}>
             <div className={Style.bigNFTSlider_box_left_bidding_box}>
-              <small>Current Bid</small>
+              <small>Current Bid</small> 
               <p>
-                {sliderData[idNumber].price} <span>$221,21</span>
+                {sliderData[idNumber].price}    <span>$221,21</span>
               </p>
             </div>
 
@@ -201,6 +201,8 @@ const BigNFTSilder = () => {
               src={sliderData[idNumber].nftImage}
               alt="NFT IMAGE"
               className={Style.bigNFTSlider_box_right_box_img}
+              width={615}
+              height={617}
             />
 
             <div className={Style.bigNFTSlider_box_right_box_like}>

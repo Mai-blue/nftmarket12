@@ -5,8 +5,8 @@
     align-items: center;
     gap: 1.3rem;
     line-height: 0;
-    background-color:  var(--bg-shadow-dark-color);
-    padding: .5rem 1rem;
+    background-color: var(--icons-bg-color);
+    padding: .9rem 1rem;
     border-radius: 1rem;
     height: 8rem;
     transition: all .3s ease-in;
@@ -20,6 +20,7 @@
 .audioPlayer_box_info_box{
     display: flex;
     gap: 1rem;
+    color: var(--icons-light-color);
 }
 
 .audioPlayer_box_img{
@@ -28,17 +29,18 @@
 
 .audioPlayer_box_info_box_price{
     border:  1px solid var(--icons-color);
-    font-size: .8rem;
+    font-size: .6rem;
     width: 40%;
     font-weight: 600;
     border-radius: .2rem;
+    color: var(--icons-light-color);
 }
 
 .audioPlayer_box_info_box_price small{
     background-color: var(--icons-color);
-    color: var(--main-bg-color);
-    padding: .1rem .3rem;
+    padding: .1rem .7rem;
     border-radius: .2rem;
+    color: var(--icons-light-color);
 }
 
 .audioPlayer_box_info_box_price p{
@@ -49,7 +51,7 @@
     font-size: 2rem;
     background-color: var(--icons-color);
     border-radius: 50%;
-    color: var(--main-bg-color);
     padding: 1rem;
     cursor: pointer;
+    color: var(--icons-light-color);
 }

@@ -18,10 +18,9 @@ const Service = () => {
           <p className={Style.service_box_item_step}>
             <span>Step 1</span>
           </p>
-          <h3>Filter & Discover</h3>
+          <h3>Creative</h3>
           <p>
-            Connect with wallet, discover, buy NTFs, sell your NFTs and earn
-            money
+          Our charities and partners create NFT art on our platform and list NFTs for sale on our marketplace
           </p>
         </div>
         <div className={Style.service_box_item}>
@@ -32,12 +31,11 @@ const Service = () => {
             height={100}
           />
           <p className={Style.service_box_item_step}>
-            <span>Step 1</span>
+            <span>Step 2</span>
           </p>
-          <h3>Filter & Discover</h3>
+          <h3>Mint & Donate</h3>
           <p>
-            Connect with wallet, discover, buy NTFs, sell your NFTs and earn
-            money
+          When a newly created NFT is first sold, 98% of the sale price goes directly to the charity partner.
           </p>
         </div>
         <div className={Style.service_box_item}>
@@ -48,28 +46,26 @@ const Service = () => {
             height={100}
           />
           <p className={Style.service_box_item_step}>
-            <span>Step 1</span>
+            <span>Step 3</span>
           </p>
-          <h3>Connect Wallet</h3>
+          <h3>License</h3>
           <p>
-            Connect with wallet, discover, buy NTFs, sell your NFTs and earn
-            money
+            When the NFT is later traded, a further royalty (up to a maximum of 10%) of the resale price is returned to the charity partner (with 88% going to the seller).
           </p>
         </div>
         <div className={Style.service_box_item}>
           <Image
-            src={images.service1}
+            src={images.service4}
             alt="Filter & Discover"
             width={100}
             height={100}
           />
           <p className={Style.service_box_item_step}>
-            <span>Step 1</span>
+            <span>Step 4</span>
           </p>
           <h3>Start trading</h3>
           <p>
-            Connect with wallet, discover, buy NTFs, sell your NFTs and earn
-            money
+            Only a 2% platform fee goes to GiftBlock with each trade
           </p>
         </div>
       </div>

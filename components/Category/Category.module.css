@@ -2,18 +2,20 @@
 .box_category{
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 0rem;
 }
 
 .category{
     padding: 4rem 0;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .category_box{
     line-height: 0;
     transition: all .3s ease-in;
+    border: 1px solid var(--icons-color);
     border-radius: 1rem;
     overflow: hidden;
     cursor: pointer;
@@ -21,7 +23,8 @@
 }
 
 .category_box:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--icons-color);
+    color: var(--icons-color);
 }
 
 .category_box_img{
@@ -49,6 +52,7 @@
         grid-template-columns: 1fr;
     }
 }
+
 
 @media screen and (min-device-width: 427px) and (max-device-width: 770px) {
     .category{

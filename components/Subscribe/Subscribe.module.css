@@ -2,6 +2,8 @@
 
 .subscribe{
     width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 
 .subscribe_box{
@@ -17,10 +19,12 @@
 .subscribe_box_left h2{
     font-size: 2rem;
     line-height: 0;
+    color: var(--icons-light-color);
 }
 
 .subscribe_box p{
     font-size: 1.2rem;
+    color: var(--icons-color);
 }
 
 .subscribe_box_left_box{
@@ -33,11 +37,12 @@
 .subscribe_box_left_box small{
     font-size: 1rem;
     font-weight: 700;
+    color: var(--icons-light-color);
 }
 
 .subscribe_box_left_box span{
     background-color: var(--icons-color);
-    color: var(--main-bg-color);
+    color: var(--icons-light-color);
     padding: .5rem 1rem;
     border-radius: 2rem;
     width: 4rem;
@@ -50,7 +55,7 @@
     width: 85%;
     border-radius: 3rem;
     background-color: var(--icons-color);
-    color: var(--main-bg-color);
+    color: var(--icons-light-color);
 
     display: flex;
     align-items: center;
@@ -66,6 +71,7 @@
 .subscribe_box_left_input input::placeholder{
     color: var(--main-bg-color);
     font-size: 1.2rem;
+    color: var(--icons-light-color);
 }
 
 .subscribe_box_left_input_icon{

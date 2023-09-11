@@ -7,7 +7,7 @@
 }
 
 .daysComponent:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--icons-color);
 }
 
 
@@ -37,12 +37,14 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--icons-light-color);
 }
 
 .daysComponent_box_title_info{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--icons-light-color);
 }
 
 .daysComponent_box_title_info_profile_img{

@@ -8,11 +8,93 @@ import {
 //INTERNAL IMPORT
 import Style from "./FollowerTab.module.css";
 import FollowerTabCard from "./FollowerTabCard/FollowerTabCard";
+import Image from "../../img";
 
 const FollowerTab = () => {
-  const CardArray = [1, 2, 3, 4, 5, 6, 7, 8];
-  const FollowingArray = [1, 2, 3, 4, 5, 6];
-  const NewsArray = [1, 2, 3, 4, 5];
+  const CardArray = [
+    {
+      background: Image.creatorbackground2,
+      user: Image.user3, 
+    },
+    {
+      background: Image.creatorbackground10,
+      user: Image.user2, 
+    },
+    {
+      background: Image.creatorbackground1,
+      user: Image.user8, 
+    },
+    {
+      background: Image.creatorbackground6,
+      user: Image.user9, 
+    },
+    {
+      background: Image.creatorbackground8,
+      user: Image.user4, 
+    },
+    {
+      background: Image.creatorbackground9,
+      user: Image.user5, 
+    },
+    {
+      background: Image.creatorbackground7,
+      user: Image.user7, 
+    },
+    {
+      background: Image.creatorbackground4,
+      user: Image.user10, 
+    },
+
+  ];
+  const FollowingArray = [
+    {
+      background: Image.creatorbackground4,
+      user: Image.user4, 
+    },
+    {
+      background: Image.creatorbackground10,
+      user: Image.user10, 
+    },
+    {
+      background: Image.creatorbackground9,
+      user: Image.user9, 
+    },
+    {
+      background: Image.creatorbackground1,
+      user: Image.user1, 
+    },
+    {
+      background: Image.creatorbackground3,
+      user: Image.user3, 
+    },
+    {
+      background: Image.creatorbackground6,
+      user: Image.user6, 
+    },
+
+  ];
+  const NewsArray = [
+    {
+      background: Image.creatorbackground6,
+      user: Image.user9, 
+    },
+    {
+      background: Image.creatorbackground8,
+      user: Image.user4, 
+    },
+    {
+      background: Image.creatorbackground9,
+      user: Image.user5, 
+    },
+    {
+      background: Image.creatorbackground7,
+      user: Image.user7, 
+    },
+    {
+      background: Image.creatorbackground4,
+      user: Image.user10, 
+    },
+  ];
 
   const [popular, setPopular] = useState(true);
   const [following, setFollowing] = useState(false);
@@ -43,7 +125,7 @@ const FollowerTab = () => {
   return (
     <div className={Style.followerTab}>
       <div className={Style.followerTab_title}>
-        <h2> Top Creators List..</h2>
+        <h2> Top Creators</h2>
         <div className={Style.followerTab_tabs}>
           <div className={Style.followerTab_tabs_btn}>
             <button onClick={() => openPopular()}>

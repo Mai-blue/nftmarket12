@@ -1,6 +1,6 @@
 
 .filter{
-    padding: 4rem 0;
+    padding: 1rem 0;
     width: 100%;
 }
 
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 4rem ;
+    padding-bottom: 3rem ;
 }
 
 .filter_box_left{
@@ -24,7 +24,8 @@
     outline: none;
     padding: 1rem 1.5rem;
     border-radius: 2rem;
-    border:  1px solid var(--main-bg-color);
+    border:  1px solid var(--icons-light-color);
+    color: var(--icons-light-color);
     transition: all .3s ease-in;
     font-size: 1.3rem;
     cursor: pointer;
@@ -32,15 +33,16 @@
 }
 .filter_box_left button:hover{
     border:  1px solid var(--icons-color);
-    color: var(--icons-color);
-    box-shadow: var(--box-shadow);
+    color: var(--icons-light-color);
+    background-color: var(--icons-color);
+    box-shadow: var(--icons-color);
 }
 
 .filter_box_right_box{
-    border:  1px solid var(--icons-color);
+    border:  1px solid var(--icons-light-color);
     padding: 1rem 2rem;
     border-radius: 2rem;
-    color: var(--icons-color);
+    color: var(--icons-light-color);
     box-shadow: var(--box-shadow);
     cursor: pointer;
     display: flex;
@@ -64,7 +66,7 @@
     background-color: var(--icons-color);
     padding: .5rem 1rem;
     border-radius: 2rem;
-    color: var(--main-bg-color);
+    color: var(--icons-light-color);
     cursor: pointer;
 
     display: flex;
@@ -74,7 +76,7 @@
 
 .filter_box_items_box_item_trans{
     border: 1px solid var(--icons-color);
-    color: var(--icons-color);
+    color: var(--icons-light-color);
     padding: .5rem 1rem;
     border-radius: 2rem;
     cursor: pointer;

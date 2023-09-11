@@ -1,0 +1,16 @@
+
+.banner_img_mobile{
+    display: none;
+    width: 80%;
+}
+
+@media screen and (max-width: 35em) {
+    .banner_img_mobile{
+        display: block;
+        width: 80%;
+    }
+
+    .banner_img {
+        display: none;
+    }
+}

@@ -86,10 +86,10 @@ const AudioCard = () => {
 
         <div className={Style.audioCard_box_img}>
           <Image
-            src={images.creatorbackground10}
+            src={images.creatorbackground3}
             alt="background"
-            width={500}
-            height={500}
+            width={350}
+            height={300}
           />
         </div>
       </div>
